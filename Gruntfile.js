@@ -107,7 +107,7 @@ module.exports = function(grunt) {
   , browserSync: {
       dev: {
         bsFiles: {
-          src: ['demo/**/*', '!demo/**/*.map']
+          src: ['demo/**/*', '!demo/**/*.map', 'src/**/*.glsl']
         }
       }
     , options: {
