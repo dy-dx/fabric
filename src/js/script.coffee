@@ -1,6 +1,6 @@
 'use strict'
 
-id = parseInt(location.hash.split('#')[1], 10) || 0
+id = parseInt(location.hash.split('#')[1], 10) || 1
 
 window.getShaderSync = (name) ->
   url = "../src/js/#{id}/#{name}.glsl"

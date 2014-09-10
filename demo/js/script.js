@@ -2,7 +2,7 @@
   'use strict';
   var id, script;
 
-  id = parseInt(location.hash.split('#')[1], 10) || 0;
+  id = parseInt(location.hash.split('#')[1], 10) || 1;
 
   window.getShaderSync = function(name) {
     var url;
